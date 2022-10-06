@@ -1,0 +1,115 @@
+.container{
+    height: 300px;
+    width: 100vw;
+background-image:url(./skyimage.jpg);
+text-align: center;
+}
+.hii{
+text-align: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    color: brown;
+    background-color: red;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px;
+}
+.divtag{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+ justify-content: right;
+}
+.butt{
+    width: 100px;
+    height: 20px;
+    margin: 15px;
+}
+.all{
+   
+   width: 100vw;
+   background-color: aqua;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   
+}
+.content{
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 10px ;
+    text-align: center;
+
+}
+
+/* @media  (min-width:300px) {
+    
+        .all{
+            
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* align-items:center; */
+        /* justify-content: center; */
+            
+    @media  (max-width: 500px) {
+        .all{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }
+
+    .but{
+        height: 30px;
+        width: 100px;
+        background-color: yellowgreen;
+        color: white;
+        border-radius: 20px;
+        
+    }
+
+    @media (max-width:820px) {
+        .but{
+        background-color:red;
+        color: white;
+    }
+    }
+
+    @media (max-width:375px) {
+        .but{
+            background-color: violet;
+            color: white;
+
+        }
+    }
+
+    .cont{
+        border: 2px solid black;
+        height: 800px;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row ;
+    }
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    margin: 10px;
+
+}
